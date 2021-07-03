@@ -17,7 +17,7 @@ public static double calcFeetAndInchesToCentimeters(double feet , double inches)
 
     if (feet >= 0 && inches >= 0 && inches <= 12) {
         feet = feet * 30.48;
-        inches = inches * 2.54;
+        inches = inches * 2.4;
         System.out.println("feet to centimetre " + feet  + " inches to centimeter is " +inches);
         return  feet;
 
